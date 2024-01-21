@@ -12,9 +12,15 @@ verb5 = input('What is a verb in the past tense that you could tell me? ')
 
 
 print('  ')
-print(f'The other day, I was really in trouble. It all started when I saw a very') 
-print(f'{adjective1.lower} {animal1.lower} {verb1.lower} down the hallway. "{exclamation1.capitalize}!" I yelled. But all')
-print(f'I could think to do was to {verb2.lower} over and over. Miraculously,')
-print(f'that caused it to stop, but not before it tried to {verb3.lower} ')
-print(f'right in front of my family. But luckily, my {noun1.lower} {verb4.lower} {animal1.lower} very hard. I')
-print(f'became {feeling.lower} and left my {noun2.lower} to solve the rest. I rested and {verb5.lower} a little. ')
+print(f'''The other day, I was really in trouble. It all started when I saw a very 
+{adjective1.lower()
+} {animal1.lower()} {verb1.lower():} down the hallway. "
+{exclamation1.capitalize()}!" I yelled. But all I could think to do was to
+{verb2.lower()} over and over. Miraculously, that caused it to stop, but
+not before it tried to {verb3.lower()} right in front of my family. But, 
+luckily, my {noun1.lower()} {verb4.lower()} {animal1.lower()} very hard. I
+became {feeling.lower()} and left my {noun2.lower()} to solve the rest. I
+rested and {verb5.lower()} a little. ''')
+
+# math.comb
+#if, and, or, else, elif.
